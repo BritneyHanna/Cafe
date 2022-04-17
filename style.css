@@ -40,7 +40,7 @@ a {
   left: 0;
   height: 9rem;
   z-index: 1;
-  background-color: rgba(9, 9, 9, 0.8);
+  background-color: rgba(9, 9, 9, 0.9);
 }
 .logo {
   cursor: pointer;
@@ -147,39 +147,120 @@ a {
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-.nav-link{
-    display:block;
-    color:#fff;
-    text-transform:uppercase;
-    font-size:1.6rem;
-    letter-spacing:2.3px;
-    margin-right:-2px;
-    transition:color 0.5s;
+.nav-link {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 2.3px;
+  margin-right: -2px;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: #a99607;
+}
 
+.icons {
+  list-style: none;
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  margin-right: 8rem;
+  z-index: 50;
 }
-.nav-link:hover{
-    color:#a99607;
+.icon {
+  cursor: pointer;
 }
-
-.icons{
-    list-style:none;
-    font-size:2rem;
-    color:#fff;
-    display:flex;
-    margin-right:8rem;
-    z-index:50;
-}
-.icon{
-cursor:pointer;
-}
-.icon:not(:last-child){
-    margin-right:1rem;
+.icon:not(:last-child) {
+  margin-right: 1rem;
 }
 
 /* Styles for Hero Section */
 
-.hero{
-    width:100%;
-    height:100vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Img/heroimageB.png") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.quality {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e2e2d9;
+  margin-top: -2rem;
+}
+.title {
+  font-size: 10rem;
+  color: #fff;
+}
+
+/* Style arrow button that goes to top of page  */
+.go-top {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  background: white;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #333;
+  border-radius: 50%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Style featured Items  */
+
+.featured {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-bottom: 10rem;
+}
+
+.featured h3 {
+  margin-bottom: 5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 5rem;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: #5b5858;
+  position: relative;
+
+}
+
+.three-columns-grid{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap:5rem;
+margin:0 auto;
+text-align:center;
+
+}
+
+.subtitle{
+  font-size:2.8rem;
+  
+}
+.featured-paragraph{
+  margin-top:2rem;
+  font-size:1.6rem;
+  color:#5b5858;
 }
