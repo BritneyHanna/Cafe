@@ -309,26 +309,23 @@ a {
   grid-gap: 5rem;
   margin-top: 10rem;
 }
-.name{
-  font-size:1.8rem;
-  text-align:center;
-  font-weight:bold;
-  margin-top:2rem;
-  
+.name {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
 }
-.position{
-  text-align:center;
-  margin-top:1rem;
-  text-transform:uppercase;
-  font-size:2rem;
-  color:#bcb1b1;
-
+.position {
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #bcb1b1;
 }
-.description-paragraph{
+.description-paragraph {
   margin: top 1.5rem;
-  font-size:1.6rem;
-  color:#5b5858;
-  text-align:center;
-  padding-bottom:5rem;
-
+  font-size: 1.6rem;
+  color: #5b5858;
+  text-align: center;
+  padding-bottom: 5rem;
 }
