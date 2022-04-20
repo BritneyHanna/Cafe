@@ -411,7 +411,7 @@ a {
 
 .slick-prev::before,
 .slick-next::before {
-    color: #bc9321 !important;
+    color: #79861a!important;
     font-size: 3rem;
 }
 
@@ -448,5 +448,82 @@ a {
     max-width: 500px;
     text-align: center;
 }
+/* Style Booking Section */
+.book {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("img/vegetable-salad.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.book-card {
+    width: 80%;
+    background-color: #fff;
+    margin: 6rem auto;
+    border-radius: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    padding-bottom: 5rem;
+}
+
+.book-card h3 {
+    margin-bottom: 5rem;
+}
+
+.form-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+input {
+    border: transparent;
+    border-bottom: 2px solid #ccc;
+    transition: all 0.8s;
+    width: 70%;
+}
+
+input:focus {
+    border-bottom: 2px solid #79861a;
+    outline: none;
+}
 
 
+
+select {
+    border: transparent;
+    border-bottom: 2px solid #ccc;
+}
+
+select:focus {
+    outline: none;
+}
+
+.btn-book {
+    display: flex;
+    justify-content: center;
+    transform: translateY(5rem);
+    font-size: 1.4rem;
+    width:10rem;
+    color:#5b5858;
+    background-color: #252525;
+    outline: none;
+    border-bottom:none;
+}
+/* Footer */
+.footer {
+    height: 20vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address {
+    color: #afafaf;
+    font-size: 2rem;
+    text-align: center;
+}
+.address span{
+  color:#79861a;
+}
