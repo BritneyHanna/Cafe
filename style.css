@@ -30,9 +30,7 @@ a:visited
       color: inherit !important;
 }
 
-a .fa {
-color: white;
-}
+
 
 .container {
   width: 100%;
@@ -177,7 +175,7 @@ color: white;
 .icons {
   list-style: none;
   font-size: 2rem;
-  color: #fff;
+  color: #fff !important;
   display: flex;
   margin-right: 8rem;
   z-index: 50;
