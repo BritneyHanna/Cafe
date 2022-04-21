@@ -10,7 +10,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  -webkit-tap-highlight-color: white;
+ 
 }
 body {
   font-family: "Neucha", cursive;
@@ -26,10 +26,12 @@ a {
 Need to find a better way to fix this  */
 a:visited 
 {
-  color:white;
+  text-decoration: none;
+      color: inherit !important;
 }
-a:visited.go-top{
-  color:#333;
+
+a .fa {
+color: white;
 }
 
 .container {
@@ -653,4 +655,6 @@ Media Queries */
      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/Img/imgb.png") center no-repeat;
   }
+  
+
 }
