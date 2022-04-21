@@ -528,7 +528,10 @@ select:focus {
 }
 .address span {
   color: #79861a;
+
 }
+/* 
+Media Queries */
 @media only screen and (max-width: 1024px) {
   .paragraph {
     margin: 0 auto;
@@ -581,7 +584,7 @@ select:focus {
 @media only screen and (max-width: 500px) {
   .delicious {
     width: 200px;
-    margin-bottom:1rem;
+    margin-bottom:3rem;
   }
 
   .title {
