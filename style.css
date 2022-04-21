@@ -19,7 +19,18 @@ body {
 
 a {
   text-decoration: none;
+
 }
+/* 
+Need to find a better way to fix this  */
+a:visited 
+{
+  color:white;
+}
+a:visited.go-top{
+  color:#333;
+}
+
 .container {
   width: 100%;
   max-width: 122.5rem;
