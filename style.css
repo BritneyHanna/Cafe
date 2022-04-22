@@ -24,10 +24,10 @@ a {
 }
 /* 
 Need to find a better way to fix this  */
-a:visited 
-{
+ul a:visited,
+ul a:active{
   text-decoration: none;
-      color: inherit !important;
+      color: white!important;
 }
 
 
