@@ -22,16 +22,16 @@ a {
   text-decoration: none;
 
 }
-/* 
-Need to find a better way to fix this  */
+
 ul a:visited,
 ul a:active{
   text-decoration: none;
       color: inherit;
 }
 
-i{
-  color:white !important;
+/* Without specifiying this the color of the icons were blue on iphones  */
+.fab{
+  color:white;
 }
 
 
