@@ -27,7 +27,11 @@ Need to find a better way to fix this  */
 ul a:visited,
 ul a:active{
   text-decoration: none;
-      color: white!important;
+      color: inherit;
+}
+
+i{
+  color:white !important;
 }
 
 
