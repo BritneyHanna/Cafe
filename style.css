@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline:none;
 }
 
 html {
@@ -199,6 +200,7 @@ ul a:active{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/Img/heroimageA.png") center no-repeat;
   background-size: cover;
+  background-position:top;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -653,10 +655,13 @@ Media Queries */
   .copyright {
     font-size: 1.2rem;
   }
-  .hero{
+  /* .hero{
      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/Img/imgb.png") center no-repeat;
-  }
+  } */
   
-
+.hero{
+  background-image:url("/Img/heroimageB.png");
+  
+}
 }
