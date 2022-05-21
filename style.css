@@ -655,17 +655,9 @@ Media Queries */
   .copyright {
     font-size: 1.2rem;
   }
-  .hero{
-     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Img/heroimageB.png") center no-repeat;
-    background-position: top; */
-     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-     background-image:url('/Img/imgb.png');
-     background-size:cover;
-     background-repeat:no-repeat;
-     background-position: center;
-  
-  }
+.hero{
+  background-image: url("/Img/imgb.png");
+}
   
 
 }
