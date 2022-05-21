@@ -199,7 +199,6 @@ ul a:active{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/Img/heroimageA.png") center no-repeat;
   background-size: cover;
-  background-position:top;
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -361,7 +360,6 @@ ul a:active{
   background: url("/Img/group\ of\ people\ drinking\ coffee.png") no-repeat
     center;
   background-size: cover;
-
 }
 .menu-wrapper {
   background-color: #fff;
@@ -599,7 +597,7 @@ Media Queries */
   }
 }
 
-@media only  screen  and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .delicious {
     width: 200px;
     margin-bottom:3rem;
@@ -655,9 +653,10 @@ Media Queries */
   .copyright {
     font-size: 1.2rem;
   }
-.hero{
-  background-image: url("/Img/imgb.png");
-}
+  .hero{
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Img/imgb.png") center no-repeat;
+  }
   
 
 }
