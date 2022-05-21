@@ -599,7 +599,7 @@ Media Queries */
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only  screen  and (max-width: 500px) {
   .delicious {
     width: 200px;
     margin-bottom:3rem;
@@ -656,9 +656,13 @@ Media Queries */
     font-size: 1.2rem;
   }
   .hero{
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Img/heroimageB.png") contain no-repeat;
-    background-position:top;
+     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Img/heroimageB.png") center no-repeat;
+    background-position: top; */
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+     background-image:url('/Img/heroimageB.png');
+     background-size:cover;
+     
   
   }
   
