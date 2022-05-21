@@ -662,6 +662,11 @@ Media Queries */
   
 .hero{
   background-image:url("/Img/imgb.png");
+  background-size:cover;
+  background-position:top;
+  background-repeat:no-repeat;
+  
+
   
 }
 }
