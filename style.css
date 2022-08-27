@@ -520,7 +520,8 @@ select:focus {
 
   color: #333;
   background-color: transparent;
-  margin: 0 auto;
+  margin: 0 auto 15px auto;
+  
   outline: none;
   border-bottom: none;
   border-radius: 15%;
@@ -572,6 +573,7 @@ Media Queries */
 
   .three-columns-grid {
     grid-template-columns: 1fr;
+ 
   }
 
   .two-columns-grid {
